@@ -1,0 +1,3 @@
+[submodule "tarballs/elf2flt-custom"]
+	path = tarballs/elf2flt-custom
+	url = git://wh0rd.org/elf2flt.git
