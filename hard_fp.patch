@@ -1,0 +1,12 @@
+diff -Naur tiva/makedefs tiva_mod/makedefs
+--- tiva/makedefs	2013-04-11 14:23:58.000000000 -0400
++++ tiva_mod/makedefs	2014-02-09 20:33:47.302476664 -0500
+@@ -85,7 +85,7 @@
+ # Set the compiler CPU/FPU options.
+ #
+ CPU=-mcpu=cortex-m4
+-FPU=-mfpu=fpv4-sp-d16 -mfloat-abi=softfp
++FPU=-mfpu=fpv4-sp-d16 -mfloat-abi=hard
+ 
+ #
+ # The flags passed to the assembler.
